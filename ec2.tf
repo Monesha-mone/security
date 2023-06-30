@@ -6,7 +6,7 @@ resource "aws_instance" "EC2J" {
  ami = "ami-007855ac798b5175e"
  instance_type = "t2.micro"
  key_name = "N.virginia"
- security_groups = ["sg-0e82ea59b182012ca"]
+ security_groups = ["sg-0d419e3b20ed54fb3"]
  subnet_id = "subnet-0d1ed53e48b93edab"
  associate_public_ip_address = "true"
  tags = {

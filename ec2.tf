@@ -13,9 +13,3 @@ resource "aws_instance" "EC2J" {
   Name = "EC2J"
  }
 }
-output "EC2J" {
-  value = aws_instance.EC2J.public_ip
-}
-output "EC2J_instance_id" {
-  value = aws_instance.EC2J.id
-}
